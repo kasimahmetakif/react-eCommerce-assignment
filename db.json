@@ -1,0 +1,599 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Futbol",
+      "description": "Futbol, iki takım arasında oynanan popüler bir spor dalıdır. Oyuncuların amacı, topu rakip takımın kale bölgesine sokmaktır. Futbol, genellikle 11 kişilik takımlar halinde oynanır ve dünya genelinde büyük bir izleyici kitlesine sahiptir. Oyuncuların hız, dayanıklılık ve top kontrolü gibi yetenekleri test edilir.",
+      "image_slug": "futbol.jpg"
+
+    },
+    {
+      "id": 2,
+      "title": "Basketbol",
+      "description": "Basketbol, yüksek hızda oynanan ve yüksek hedeflere sahip bir takım sporudur. Oyuncular, yüksek bir sepete top atarak puan kazanmaya çalışır. Basketbol, hızlı geçişler, smaçlar ve üçlük atışlar gibi heyecan verici özelliklere sahiptir. Hem amatör hem de profesyonel düzeyde yaygın olarak oynanır.",
+      "image_slug": "basketbol.jpg"
+
+    },
+    {
+      "id": 3,
+      "title": "Koşu",
+      "description": "Koşu, bireysel bir spor aktivitesidir ve genellikle fiziksel dayanıklılığı ve dayanıklılığı artırmak için yapılır. Koşu, farklı uzunluklarda yarışlar veya maratonlar şeklinde gerçekleştirilebilir. Koşu, sporcuların kardiyo kondisyonlarını geliştirmelerine ve kendilerini zihinsel olarak sınama fırsatı sunar.",
+      "image_slug": "kosu.jpg"
+
+    },
+    {
+      "id": 4,
+      "title": "Lifestyle",
+      "description": "Lifestyle kategorisi, spor dışı aktiviteler, sağlıklı yaşam tarzları ve kişisel gelişim gibi konuları kapsar. Bu kategori, insanların daha sağlıklı, mutlu ve dengeli bir yaşam tarzı benimsemelerine yardımcı olmayı hedefler. İyi bir yaşam tarzı seçimi, genel sağlığı ve refahı artırabilir.",
+      "image_slug": "lifestyle.jpg"
+
+    }
+  ],
+
+  "Product": [
+    {
+      "id": 1,
+      "title": "Revolution Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/1.jpg",
+      "gallery": [
+        "assets/img/product/1.jpg",
+        "assets/img/product/1-2.jpg"
+      ],
+      "price": 2178,
+      "filter": ["40", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 2,
+      "title": "RS-X Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/2.jpg",
+      "gallery": [
+        "assets/img/product/2.jpg",
+        "assets/img/product/2-1.jpg"
+      ],
+      "price": 3895,
+      "filter": ["42", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 3,
+      "title": "Speed Cat Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/3.jpg",
+      "gallery": [
+        "assets/img/product/3.jpg",
+        "assets/img/product/3-2.jpg"
+      ],
+      "price": 2729,
+      "filter": ["42", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 4,
+      "title": "Ultraboost Shoes",
+      "categoryId": 4,
+      "image": "assets/img/product/4.jpg",
+      "gallery": [
+        "assets/img/product/4.jpg",
+        "assets/img/product/4-2.jpg"
+      ],
+      "price": 3789,
+      "filter": ["44", "Adidas"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 5,
+      "title": "Revolution Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/5.jpg",
+      "gallery": [
+        "assets/img/product/5.jpg",
+        "assets/img/product/5-1.jpg"
+      ],
+      "price": 3899,
+      "filter": ["44", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 6,
+      "title": "Suede Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/6.jpg",
+      "gallery": [
+        "assets/img/product/6.jpg",
+        "assets/img/product/6-1.jpg",
+        "assets/img/product/6-2.jpg"
+      ],
+      "price": 2772,
+      "filter": ["40", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 7,
+      "title": "RS-X Shoes",
+      "categoryId": 4,
+      "image": "assets/img/product/7.jpg",
+      "gallery": [
+        "assets/img/product/7.jpg",
+        "assets/img/product/7-2.jpg"
+      ],
+      "price": 3823,
+      "filter": ["44", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 8,
+      "title": "Suede Shoes",
+      "categoryId": 1,
+      "image": "assets/img/product/8.jpg",
+      "gallery": [
+        "assets/img/product/8.jpg",
+        "assets/img/product/8-1.jpg",
+        "assets/img/product/8-2.jpg"
+      ],
+      "price": 2893,
+      "filter": ["41", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 9,
+      "title": "Stan Smith Shoes",
+      "categoryId": 4,
+      "image": "assets/img/product/9.jpg",
+      "gallery": [
+        "assets/img/product/9.jpg",
+        "assets/img/product/9-2.jpg"
+      ],
+      "price": 3413,
+      "filter": ["44", "Adidas"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 10,
+      "title": "Air Max Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/10.jpg",
+      "gallery": [
+        "assets/img/product/10.jpg",
+        "assets/img/product/10-1.jpg",
+        "assets/img/product/10-2.jpg"
+      ],
+      "price": 2630,
+      "filter": ["44", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 11,
+      "title": "RS-X Shoes",
+      "categoryId": 1,
+      "image": "assets/img/product/11.jpg",
+      "gallery": [
+        "assets/img/product/11.jpg",
+        "assets/img/product/11-1.jpg",
+        "assets/img/product/11-2.jpg"
+      ],
+      "price": 3405,
+      "filter": ["41", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 12,
+      "title": "Free Run Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/12.jpg",
+      "gallery": [
+        "assets/img/product/12.jpg",
+        "assets/img/product/12-1.jpg"
+      ],
+      "price": 2563,
+      "filter": ["43", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 13,
+      "title": "Speed Cat Shoes",
+      "categoryId": 1,
+      "image": "assets/img/product/13.jpg",
+      "gallery": [
+        "assets/img/product/13.jpg",
+        "assets/img/product/13-1.jpg"
+      ],
+      "price": 2234,
+      "filter": ["44", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 14,
+      "title": "Air Force 1 Shoes",
+      "categoryId": 4,
+      "image": "assets/img/product/14.jpg",
+      "gallery": [
+        "assets/img/product/14.jpg",
+        "assets/img/product/14-2.jpg"
+      ],
+      "price": 2346,
+      "filter": ["42", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 15,
+      "title": "Air Force 1 Shoes",
+      "categoryId": 1,
+      "image": "assets/img/product/15.jpg",
+      "gallery": [
+        "assets/img/product/15.jpg",
+        "assets/img/product/15-1.jpg",
+        "assets/img/product/15-2.jpg"
+      ],
+      "price": 3486,
+      "filter": ["42", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 16,
+      "title": "Superstar Shoes",
+      "categoryId": 1,
+      "image": "assets/img/product/16.jpg",
+      "gallery": [
+        "assets/img/product/16.jpg",
+        "assets/img/product/16-2.jpg",
+        "assets/img/product/16-3.jpg",
+        "assets/img/product/16-4.jpg"
+      ],
+      "price": 3779,
+      "filter": ["41", "Adidas"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 17,
+      "title": "Revolution Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/17.jpg",
+      "gallery": [
+        "assets/img/product/17.jpg",
+        "assets/img/product/17-1.jpg",
+        "assets/img/product/17-2.jpg",
+        "assets/img/product/17-3.jpg"
+      ],
+      "price": 2204,
+      "filter": ["41", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 18,
+      "title": "Superstar Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/18.jpg",
+      "gallery": [
+        "assets/img/product/18.jpg",
+        "assets/img/product/18-1.jpg",
+        "assets/img/product/18-2.jpg",
+        "assets/img/product/18-3.jpg"
+      ],
+      "price": 3658,
+      "filter": ["40", "Adidas"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 19,
+      "title": "Free Run Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/19.jpg",
+      "gallery": [
+        "assets/img/product/19.jpg",
+        "assets/img/product/19-2.jpg"
+      ],
+      "price": 2384,
+      "filter": ["40", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 20,
+      "title": "RS-X Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/20.jpg",
+      "gallery": ["assets/img/product/20.jpg"],
+      "price": 3977,
+      "filter": ["43", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 21,
+      "title": "Stan Smith Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/21.jpg",
+      "gallery": [
+        "assets/img/product/21.jpg",
+        "assets/img/product/21-1.jpg"
+      ],
+      "price": 2138,
+      "filter": ["41", "Adidas"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 22,
+      "title": "Ignite Shoes",
+      "categoryId": 1,
+      "image": "assets/img/product/22.jpg",
+      "gallery": [
+        "assets/img/product/22.jpg"
+      ],
+      "price": 3017,
+      "filter": ["43", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 23,
+      "title": "Free Run Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/23.jpg",
+      "gallery": [
+        "assets/img/product/23.jpg",
+        "assets/img/product/23-2.jpg"
+      ],
+      "price": 2612,
+      "filter": ["42", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 24,
+      "title": "Ultraboost Shoes",
+      "categoryId": 4,
+      "image": "assets/img/product/24.jpg",
+      "gallery": [
+        "assets/img/product/24.jpg",
+        "assets/img/product/24-1.jpg",
+        "assets/img/product/24-2.jpg"
+      ],
+      "price": 2440,
+      "filter": ["40", "Adidas"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 25,
+      "title": "Suede Shoes",
+      "categoryId": 1,
+      "image": "assets/img/product/25.jpg",
+      "gallery": ["assets/img/product/25.jpg"],
+      "price": 2380,
+      "filter": ["40", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 26,
+      "title": "Air Force 1 Shoes",
+      "categoryId": 4,
+      "image": "assets/img/product/26.jpg",
+      "gallery": [
+        "assets/img/product/26.jpg",
+        "assets/img/product/26-2.jpg"
+      ],
+      "price": 3038,
+      "filter": ["41", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 27,
+      "title": "Ignite Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/27.jpg",
+      "gallery": [
+        "assets/img/product/27.jpg",
+        "assets/img/product/27-2.jpg"
+      ],
+      "price": 3720,
+      "filter": ["42", "Puma"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 29,
+      "title": "Air Force 1 Shoes",
+      "categoryId": 2,
+      "image": "assets/img/product/29.jpg",
+      "gallery": [
+        "assets/img/product/29.jpg",
+        "assets/img/product/29-2.jpg",
+        "assets/img/product/29-3.jpg"
+      ],
+      "price": 2074,
+      "filter": ["41", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 30,
+      "title": "Air Force 1 Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/30.jpg",
+      "gallery": [
+        "assets/img/product/30.jpg",
+        "assets/img/product/30-2.jpg"
+      ],
+      "price": 2260,
+      "filter": ["44", "Nike"],
+      "date": "2023-12-31"
+    },
+    {
+      "id": 31,
+      "title": "Air Force 1 Shoes",
+      "categoryId": 3,
+      "image": "assets/img/product/31.jpg",
+      "gallery": [
+        "assets/img/product/31.jpg",
+        "assets/img/product/31-1.jpg"
+      ],
+      "price": 3523,
+      "filter": ["44", "Nike"],
+      "date": "2023-12-31"
+    }
+  ],
+
+  "Users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "hashedpassword123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "password": "hashedpassword456"
+    },
+    {
+      "id": 3,
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "password": "hashedpassword789"
+    },
+    {
+      "id": 4,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "password": "hashedpassword1011"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Brown",
+      "email": "charlie.brown@example.com",
+      "password": "hashedpassword1213"
+    },
+    {
+      "id": 6,
+      "name": "Diana Green",
+      "email": "diana.green@example.com",
+      "password": "hashedpassword1415"
+    },
+    {
+      "id": 7,
+      "name": "Evan White",
+      "email": "evan.white@example.com",
+      "password": "hashedpassword1617"
+    }
+  ],
+
+  "Blogs": [
+    {
+      "id": 1,
+      "title": "Tech Blog",
+      "short_desc": "Latest tech trends",
+      "long_desc": "In-depth articles on the latest technology",
+      "image": "tech-blog-image.jpg",
+      "date": "2023-01-03",
+      "img": "https://wallpapercave.com/wp/wp9135581.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Fashion Blog",
+      "short_desc": "Trending fashion styles",
+      "long_desc": "Explore the latest fashion trends and styles",
+      "image": "fashion-blog-image.jpg",
+      "date": "2023-01-04",
+      "img": "https://hd.wallpaperswide.com/thumbs/beautiful_winter_scene-t2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Travel Adventures",
+      "short_desc": "Discovering new places",
+      "long_desc": "Join us on a journey through some of the world's most exotic and beautiful locations. In this extensive series of articles, we delve into the heart of local cultures, explore hidden gems, and offer tips on how to make the most of your travels. From the bustling streets of Tokyo to the serene beaches of Bali, we cover a range of destinations, catering to all types of travelers.",
+      "image": "travel-blog-image.jpg",
+      "date": "2023-01-05",
+      "img": "https://cdn.openart.ai/stable_diffusion/7d78140c4479cb14a2b3f1c2d6451ca05423ee76_2000x2000.webp"
+    },
+    {
+      "id": 4,
+      "title": "Healthy Living",
+      "short_desc": "Tips for a healthier life",
+      "long_desc": "Our comprehensive guide to healthy living offers readers a deep dive into nutrition, exercise, and mindfulness. We share expert advice on how to create balanced meals, effective workout routines, and strategies to reduce stress. Explore the latest research on wellness and discover practical ways to implement these findings into your daily life.",
+      "image": "healthy-living-blog-image.jpg",
+      "date": "2023-01-06",
+      "img": "https://wallpapercave.com/wp/wp8492303.jpg"
+    }
+  ],
+
+  "Orders": [
+    {
+      "orderid": 1,
+      "user_id": 1,
+      "products": [
+        {
+          "product_id": 3,
+          "date": "2023-01-08",
+          "status": "Shipped"
+        },
+        {
+          "product_id": 4,
+          "date": "2023-01-09",
+          "status": "Processing"
+        }
+      ]
+    },
+    {
+      "orderid": 2,
+      "user_id": 2,
+      "products": [
+        {
+          "product_id": 5,
+          "date": "2023-01-10",
+          "status": "Delivered"
+        }
+      ]
+    },
+    {
+      "orderid": 3,
+      "user_id": 3,
+      "products": [
+        {
+          "product_id": 6,
+          "date": "2023-01-11",
+          "status": "Processing"
+        },
+        {
+          "product_id": 7,
+          "date": "2023-01-12",
+          "status": "Shipped"
+        }
+      ]
+    },
+    {
+      "orderid": 4,
+      "user_id": 4,
+      "products": [
+        {
+          "product_id": 8,
+          "date": "2023-01-13",
+          "status": "Delivered"
+        }
+      ]
+    },
+    {
+      "orderid": 5,
+      "user_id": 5,
+      "products": [
+        {
+          "product_id": 9,
+          "date": "2023-01-14",
+          "status": "Processing"
+        },
+        {
+          "product_id": 10,
+          "date": "2023-01-15",
+          "status": "Shipped"
+        }
+      ]
+    },
+    {
+      "orderid": 6,
+      "user_id": 6,
+      "products": [
+        {
+          "product_id": 11,
+          "date": "2023-01-16",
+          "status": "Delivered"
+        }
+      ]
+    }
+  ]
+}
